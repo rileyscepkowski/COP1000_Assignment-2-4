@@ -5,7 +5,7 @@ numDependents = float(input("Please enter number of dependents: "))
 # Tax rates and fixed dependent deduction amount
 State_Tax_Rate = 0.065  # 6.5% state tax rate
 Federal_Tax_Rate = 0.28  # 28% federal tax rate
-dependent_deduction = 0.025  # 25% deduction per dependent
+dependent_deduction = 0.025  # 2.5% deduction per dependent
 
 # Calculate state tax and federal tax based on the salary
 stateTax = salary * State_Tax_Rate
@@ -27,6 +27,6 @@ takeHomePay = salary - totalWithholding
 # Output statements
 print("State Tax: $" + str(stateTax))
 print("Federal Tax: $" + str(federalTax))
-print("Dependents: " + str(numDependents))
+print("Dependents: $" + str(dependentDeductionRate))
 print("Salary: $" + str(salary))
 print("Take Home Pay: $" + str(takeHomePay))        
