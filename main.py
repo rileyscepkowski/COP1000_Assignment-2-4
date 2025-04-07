@@ -1,6 +1,6 @@
-# Input statements
-salary = float(input())
-numDependents = float(input())
+# Input statements with prompts for user clarity
+salary = float(input("Please enter salary: "))
+numDependents = float(input("Please enter number of dependents: "))
 
 
 # Calculate taxes here
